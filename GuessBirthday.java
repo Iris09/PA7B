@@ -1,6 +1,6 @@
  import java.util.Scanner;
-public class GuessBirthday{
-  public static void main (String [] args){
+public class GuessBirthday {
+  public static void main (String [] args) {
 String set1 = "1 3 5 7 \n" +
            "9 11 13 15 \n" +
            "17 19 21 23 \n" +
@@ -32,17 +32,19 @@ String set1 = "1 3 5 7 \n" +
     Scanner input =new Scanner (System.in);
     int day = 0;
 
-    System.out.println("is your birthday in set1??\n");
-    Sistem.out.println(set1);
-    System.out.println("\nEnter 0 for NO and 1 for YES: ");
+    System.out.println("is your birthday in set1?\n");
+    System.out.println(set1);
+    System.out.println("\nEnter 0 for NO and 1 for YES");
     int answer = input.nextInt();
 
 if (answer == 1){
   //day =day +1 //acumulador
   day+=1; //acumulador
+  }
+
   System.out.println("is your birthday in set2??\n");
-  Sistem.out.println(set2);
-  System.out.println("\nEnter 0 for NO and 1 for YES: ");
+  System.out.println(set2);
+  System.out.println("\nEnter 0 for NO and 1 for YES");
    answer = input.nextInt();
   if (answer == 1){
     //day =day +1 //acumulador
@@ -50,31 +52,33 @@ if (answer == 1){
 }
 
   System.out.println("is your birthday in set3??\n");
-  Sistem.out.println(set3);
-  System.out.println("\nEnter 0 for NO and 1 for YES: ");
+  System.out.println(set3);
+  System.out.println("\nEnter 0 for NO and 1 for YES ");
  answer = input.nextInt();
   if (answer == 1){
     //day =day +1 //acumulador
-    day+=3; //acumulador
+    day+=4; //acumulador
     }
 
   System.out.println("is your birthday in set4??\n");
-  Sistem.out.println(set4);
-  System.out.println("\nEnter 0 for NO and 1 for YES: ");
-   answer = input.nextInt();
-  if (answer == 4){
-    //day =day +1 //acumulador
-    day+=1; //acumulador
-    }
-
-  System.out.println("is your birthday in set5??\n");
-  Sistem.out.println(set5);
-  System.out.println("\nEnter 0 for NO and 1 for YES: ");
+  System.out.println(set4);
+  System.out.println("\nEnter 0 for NO and 1 for YES");
    answer = input.nextInt();
   if (answer == 1){
     //day =day +1 //acumulador
-    day+=16; //acumulador}
+    day+=8; //acumulador
+    }
+
+  System.out.println("is your birthday in set5??\n");
+  System.out.println(set5);
+  System.out.println("\nEnter 0 for NO and 1 for YES");
+   answer = input.nextInt();
+
+  if (answer == 1){
+    //day =day +1 //acumulador
+    day+=16; //acumulador
 }
-{
-  System.out.println("\nYour birthday is" + day);
-  }  
+
+System.out.println("\n Your birthday is" + day);
+  }
+}
