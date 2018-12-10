@@ -29,9 +29,6 @@ public void dropStudent (String student){
 }
 
 
-
-
-
 private void dropStudent(int index) {
 		String[] s = new String[students.length - 1];
 		for (int i = 0, j = 0; i < s.length; i++, j++) {

@@ -10,7 +10,7 @@ import javax.swing.*;
           "\n" +"Eliminar alumno"+ "\n"+ "Mostrar alumno" ));
           switch(opc){
             case 1:
-            String cn = JOptionPane.showInputDialog(null,"Nombre  Curso");
+            String cn = JOptionPane.showInputDialog(null,"Nombre curso");
             curso1.setCourseName(cn);
               JOptionPane.showMessageDialog(null,curso1.getCourseName());
 
